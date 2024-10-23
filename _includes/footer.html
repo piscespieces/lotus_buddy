@@ -1,0 +1,10 @@
+<footer class="pt-14 pb-8">
+  <div class="flex justify-center items-center">
+    <ul class="flex gap-2 text-sm text-gray-500">
+      {% assign links = site.data.footer.links %}
+      {% for link in links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </ul>
+  </div>
+</footer>

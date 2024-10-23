@@ -1,0 +1,18 @@
+headline: "What our users have to say..."
+
+quote_icon: "fa-solid fa-quote-left fa-2xl text-primary-500"
+
+testimonials:
+  - name: "John Doe"
+    title: "CEO, Company Name"
+    description: "Focus Buddy has been a game-changer for me. I've been able to get more done in the last month than I have in the last year. I can't recommend it enough."
+  - name: "Jane Doe"
+    title: "Product Manager, Company Name"
+    description: "I've been using Focus Buddy for a few weeks now and I can't imagine working without it. It's like having a personal assistant that keeps me on track and helps me stay focused."
+  - name: "John Smith"
+    title: "Designer, Company Name"
+    description: "I've tried a lot of productivity tools in the past, but Focus Buddy is the first one that actually works. It's like having a coach that helps me stay on track and get things done."
+
+# ----------------------------
+# Background Image
+background_image: "https://cdn.midjourney.com/61abb3c3-533a-4b75-ac9f-62d22791f452/0_0.png"

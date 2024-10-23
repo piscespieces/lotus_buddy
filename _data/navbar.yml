@@ -1,0 +1,13 @@
+logo_image_url: "https://cdn.prod.website-files.com/66d9513220833b43c922f6c9/66d95f81ad1e7d10bbbd553a_focusbuddy.svg"
+logo_url: "/"
+
+links:
+  - label: "Contact us"
+    url: "/contact"
+  - label: "Features"
+    url: "/#features"
+  - label: "Pricing"
+    url: "/#pricing"
+  - label: "Get started"
+    url: "#"
+    primary_classes: "bg-primary-300 hover:bg-primary-400"

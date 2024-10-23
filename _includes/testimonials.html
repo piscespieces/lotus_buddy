@@ -1,0 +1,44 @@
+<section class="p-4 relative opacity-0 transition-opacity duration-1000 dark:bg-gray-900">
+  <div class="absolute inset-0 opacity-40 bg-cover -z-10" style="background-image: url('{{ site.data.testimonials.background_image }}')"></div>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6 z-10">
+    <div class="mx-auto max-w-screen-sm mb-16">
+      <h2 class="mb-4 text-2xl sm:text-3xl tracking-tight font-bold text-gray-800 dark:text-white">{{ site.data.testimonials.headline }}</h2>
+    </div>
+
+    <div class="w-full z-10">
+      <div class="mx-auto relative bg-white rounded-tl-[5rem] rounded-tr-[5rem] rounded-br-[5rem] px-4 py-14 max-w-screen-md shadow-sm">
+
+        <!-- Quote icon-->
+        <div class="absolute overflow-visible top-[-32px] left-0">
+          <div class="bg-white rounded-full flex justify-center items-center w-[80px] h-[80px] shadow-md">
+            <i class="fa-solid fa-quote-left fa-2xl text-primary-500"></i>
+          </div>
+        </div>
+
+        <!-- Testimonials carousel -->
+        <div class="splide">
+          <div class="splide__track">
+            <div class="mx-auto rounded-lg splide__list">
+
+              {% assign testimonials = site.data.testimonials.testimonials %}
+              {% for testimonial in testimonials %}
+                <figure class="mx-auto w-full mb-4 splide__slide">
+                  <blockquote>
+                    <p class="text-lg font-medium text-gray-800 lg:text-xl dark:text-white">{{ testimonial.description }}</p>
+                  </blockquote>
+                  <figcaption class="flex justify-center items-center mt-6">
+                    <div class="flex flex-col items-center gap-1">
+                      <div class="font-medium text-gray-900 dark:text-white">{{ testimonial.name }}</div>
+                      <div class="text-md font-light text-gray-500 dark:text-gray-400">{{ testimonial.title }}</div>
+                    </div>
+                  </figcaption>
+                </figure>
+              {% endfor %}
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

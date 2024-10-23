@@ -1,0 +1,15 @@
+headline: "Get more done than ever before"
+subheadline: "An AI co-pilot that stays on call with you to manage your to-do list, help avoid procrastination, and find the behavioral patterns that are holding you back."
+
+hero_shot: "assets/images/hero_shot.jpg"
+
+cta_1:
+  label: "Get started"
+  url: "#"
+cta_2:
+  label: "Speak to sales"
+  url: "#"
+
+#-------------------------------
+# Background Image
+background_image: "https://cdn.midjourney.com/97390925-a8ef-48ab-ae98-394eb07dc6a9/0_0.png"

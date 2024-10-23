@@ -1,0 +1,22 @@
+headline: "How Focus Buddy Works"
+
+features:
+  - headline: "Work on the Right Thing at the Right Time"
+    description: "As you co-work with the AI, it learns what you're working on, what's left, and what's done. It automatically keeps your to-do list up-to-date, ensuring you never miss a high-priority task"
+    image: "assets/images/feature_1.png"
+
+  - headline: "Check Ins that Hold you Accountable"
+    description: "Our coach checks in while you work, helping you talk through concerns, address perfectionism, and overcome barriers to getting started."
+    image: "assets/images/feature_2.png"
+
+  - headline: "Insights Into How you Work"
+    description: "By being there as you work, the AI learns your burnout patterns, distractions, time estimation errors, and peak productivity times. It shares these insights weekly, with real-time coaching coming soon!"
+    image: "assets/images/feature_3.png"
+
+  - headline: "Anonymous and Affordable"
+    description: "Our goal is to make Focus Buddy affordable and accessible to everyone. Focus Buddy is free for general use. And paid for a personalized version available to a select few."
+    image: "assets/images/feature_4.png"
+
+  - headline: "Available 24x7"
+    description: "Co-work with your AI productivity coach at any time for as long as you need."
+    image: "assets/images/feature_5.png"

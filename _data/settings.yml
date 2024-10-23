@@ -1,0 +1,14 @@
+#-------------------------------
+# Site Settings
+title: Focus Buddy
+description: Focus Buddy is a productivity app that helps you stay focused and organized.
+# color_scheme: auto # You have the option to choose between three modes: auto, light, and dark. The default mode is set to auto, which means that the color scheme will automatically adapt based on your operating system settings. This way, you can enjoy a personalized experience without having to manually switch between light and dark modes.
+
+#-------------------------------
+# Google Font URL
+google_font_url: "https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+google_font_family: "Libre Baskerville"
+
+#-------------------------------
+# Google Analytics
+google_analytics: # Add your GA Tracking Id
