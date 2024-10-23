@@ -500,9 +500,7 @@ video {
   display: none;
 }
 
-body {
-  color: #2a2b26;
-}
+body {}
 .sr-only {
   position: absolute;
   width: 1px;

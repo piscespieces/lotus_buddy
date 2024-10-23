@@ -20,18 +20,11 @@ module.exports = {
           ...colors.yellow
         },
       },
-      textColor: {
-        DEFAULT: '#2a2b26'
-      }
     },
   },
   plugins: [
     function ({ addBase, theme }) {
-      addBase({
-        body: {
-          color: theme('textColor.DEFAULT')
-        }, // Applies the default color to the body
-      });
+      addBase({});
     }
   ]
 }
