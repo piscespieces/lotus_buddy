@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://piscespieces.github.io/sitemap.xml
