@@ -5,27 +5,12 @@
     {% assign features = site.data.features.features %}
 
     {% for feature in features %}
-    {% assign remainder = forloop.index | modulo: 2 %}
-      <div class="gap-8 flex {% if forloop.index | modulo: 2 == 0 %} flex-col-reverse {% else %} flex-col {% endif %} items-center md:grid md:grid-cols-2 xl:gap-16">
-        {% if forloop.first == true %}
-          <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-center text-xl tracking-tight font-bold text-gray-900 dark:text-white">{{ feature.headline }}</h2>
-            <p class="text-center mb-8 font-light lg:text-lg">{{ feature.description }}</p>
-          </div>
-          <img class="w-full max-w-80 mb-4 mx-auto lg:mb-0 lg:flex rounded-lg" src="{{ feature.image | relative_url }}" alt="feature image">
-        {% elsif remainder == 0 %}
-          <img class="w-full max-w-80 mb-4 mx-auto lg:mb-0 lg:flex rounded-lg" src="{{ feature.image | relative_url }}" alt="feature image">
-          <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-center text-xl tracking-tight font-bold text-gray-900 dark:text-white">{{ feature.headline }}</h2>
-            <p class="text-center mb-8 font-light lg:text-lg">{{ feature.description }}</p>
-          </div>
-        {% else %}
-          <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-center text-xl tracking-tight font-bold text-gray-900 dark:text-white">{{ feature.headline }}</h2>
-            <p class="text-center mb-8 font-light lg:text-lg">{{ feature.description }}</p>
-          </div>
-          <img class="w-full max-w-80 mb-4 mx-auto lg:mb-0 lg:flex rounded-lg" src="{{ feature.image | relative_url }}" alt="feature image">
-        {% endif %}
+      <div class="gap-8 flex flex-col-reverse md:flex-row odd:md:flex-row-reverse items-center xl:gap-16">
+        <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+          <h2 class="mb-4 text-center text-xl tracking-tight font-bold text-gray-900 dark:text-white">{{ feature.headline }}</h2>
+          <p class="text-center mb-8 font-light lg:text-lg">{{ feature.description }}</p>
+        </div>
+        <img class="w-full max-w-80 mb-4 mx-auto lg:mb-0 lg:flex rounded-lg" src="{{ feature.image | relative_url }}" alt="feature image">
       </div>
     {% endfor %}
   </div>
