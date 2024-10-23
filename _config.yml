@@ -1,5 +1,5 @@
 url: 'https://piscespieces.github.io'
-baseurl: ''
+baseurl: '/lotus_buddy'
 title: 'Jekyllwind'
 
 plugins:
