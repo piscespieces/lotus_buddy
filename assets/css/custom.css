@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.splide__arrow {
+    padding: 8px;
+    background-color: #fff;
+    box-shadow: gray 1px 1px 3px;
+    opacity: 1;
+}
+
+.splide__arrow--prev {
+    left: -0.8rem;
+}
+
+.splide__arrow--next {
+    right: -0.8rem;
+}
