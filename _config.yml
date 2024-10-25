@@ -1,6 +1,6 @@
 url: 'https://piscespieces.github.io'
 baseurl: '/lotus_buddy'
-title: 'Jekyllwind'
+title: 'Lotus Buddy'
 
 plugins:
   - jekyll-sitemap
