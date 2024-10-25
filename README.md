@@ -8,6 +8,8 @@ El landing page está dividido en varias secciones personalizables y utiliza [Sp
 
 **Este template es 100% responsive**, asegurando una experiencia óptima en dispositivos de escritorio, tabletas y móviles.
 
+[Aquí puedes ver un live demo del app, deployed en Github Pages](https://piscespieces.github.io/lotus_buddy/)
+
 ## Estructura del Template
 
 Este template incluye las siguientes secciones:
